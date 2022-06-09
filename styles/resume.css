@@ -1,0 +1,125 @@
+:root {
+  --primary: #000;
+  --secondary: #808080;
+  --dark: #555;
+}
+
+body {
+  background: var(--dark);
+  font-size: 18px;
+}
+
+.resume {
+  background: white;
+  width: 21cm;
+  height: 29.7cm;
+  margin: 24px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 40px 32px;
+}
+
+.name {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--dark);
+}
+
+.contact {
+  text-align: center;
+  color: var(--secondary);
+  margin-bottom: 12px;
+}
+
+.links {
+  text-align: center;
+}
+
+.link {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--dark);
+  border-bottom: 2px solid var(--dark);
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+}
+
+.block {
+  padding: 0px 8px;
+  margin-bottom: 12px;
+}
+
+.main {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.date {
+  white-space: nowrap;
+  color: var(--secondary);
+  position: absolute;
+  right: 8px;
+  top: 4px;
+}
+
+.description {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.description__list {
+  margin-left: 24px;
+  list-style-type: disc;
+}
+
+.description__item {
+  margin-bottom: 4px;
+}
+
+.education {
+  margin: 16px 0px;
+}
+
+.education__university {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.education__degree {
+  margin-bottom: 8px;
+}
+
+.certification {
+  margin: 16px 0px;
+}
+
+.toeic__name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.skill {
+  margin: 16px 0px;
+}
+
+.skills__table td:first-child {
+  padding: 4px 20px 4px 0px;
+}
+
+.project {
+  margin: 16px 0px;
+}
+
+.project__name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
