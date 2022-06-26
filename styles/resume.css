@@ -17,10 +17,10 @@ body {
 }
 
 .resume {
-  background: white;
+  background-color: white;
   width: 21cm;
   height: 29.7cm;
-  margin: 24px auto;
+  margin: 0 auto;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 40px 32px;
 }
